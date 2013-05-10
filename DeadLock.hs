@@ -8,7 +8,7 @@ main = do
   void $ forkIO $ chris artAndProgramming
   forever $ do
       threadDelay d
-      rando q
+      rando artAndProgramming
 
 d = length "who knows how long"
 
